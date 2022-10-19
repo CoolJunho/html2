@@ -1,0 +1,35 @@
+<title>form</title>
+
+<body>
+    <form method="get" enctype="multipart/form-data">
+        <input value ="" type=" text" name="user_id">
+        <input type="button" value="버튼" size="2px">
+        <br>
+        먹고싶은거?(복수선택가능)<br>
+        <input type= "checkbox" 
+        name="food" value ="오마카세">초밥
+        <input type= "checkbox" 
+        name="food" value="휴게">오골계
+        <input type= "checkbox" 
+        name="food" value="수산시장">잡어회
+        
+        <br>
+        <hr>
+        다음중 먹을수 있는것은?
+        <input type= "radio" name="exam-01" value="1">1.cpu
+        <input type= "radio" name="exam-01" value="2">2.hdd
+        <input type= "radio" name="exam-01" value="3">3.ssd
+        <input type= "radio" name="exam-01" value="4">4.cup
+        <input type= "radio" name="exam-01" value="5">5.chocolate
+        <br>
+        <select name="b" id="">   
+            <option value="">초밥</option>
+            <option value="">오골계</option>
+        </select>
+        <textarea name"c"=id="" cols="30" rows="10">
+        </textarea>
+
+        <button type="button" onclick="alert('아무거나');">실행</button>
+        <input type="submit" value="초기화">
+    </form>
+</body>
